@@ -45,7 +45,7 @@ button {
 }
 
 .feature img {
-    width: 250px;
+    width: 20em;
     height: auto;
 }
 
@@ -68,11 +68,4 @@ footer {
 
 .social-links img {
     margin-right: 10px;
-}
-
-@media screen and (max-width: 768px) {
-    nav li {
-        display: block;
-        margin-bottom: 10px;
-    }
 }
