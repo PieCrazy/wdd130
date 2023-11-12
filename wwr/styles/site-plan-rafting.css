@@ -1,72 +1,15 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-@import url("https://fonts.googleapis.com/css2?family=roboto&family=Rock+salt&display=swap");
-body {
-    font-family: Arial, sans-serif;
-}
+@import url('https://fonts.google.com/specimen/Roboto');
+:root {
+    --primary-color: #389078;
+    --secondary-color: #6dadcd;
+    --accent1-color: #f9fbfa;
+    --accent2-color: #fefefe;
 
-header {
-    background-color: #25CED1;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
-}
+    --heading-font: " ", serif;
+    --paragraph-font: " ", serif;
 
-.logo img {
-    max-width: 100%;
+    --nav-background-color: #;
+    --nav-link-color: #;
+    --nav-hover-link-color: #;
+    --nav-hover-background-color: #;
 }
-
-nav ul {
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-main {
-    padding: 20px;
-}
-
-button {
-    background-color: #FF8A5B;
-    color: #FFFFFF;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-.feature img {
-    width: 20em;
-    height: auto;
-}
-
-.features {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.feature {
-    flex: 1;
-    text-align: center;
-}
-
-footer {
-    background-color: #FCEADE;
-    text-align: center;
-    padding: 20px;
-}
-
-.social-links img {
-    margin-right: 10px;
-}
-
