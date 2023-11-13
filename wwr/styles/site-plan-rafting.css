@@ -52,6 +52,10 @@ nav a:link, nav a:visited {
     background-color:  var(--nav-hover-background-color);
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
