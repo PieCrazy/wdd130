@@ -25,10 +25,10 @@ h2 {
   height: 100%;
   object-fit: cover;
 }
-
+/*making a comment so it will update again made it 26px instead of 25*/
 .stats {
   position: absolute;
-  bottom: 25px;
+  bottom: 26px;
   left: 15px;
   background: radial-gradient(#eee, #4567aa);
   border: 1px solid #000;
