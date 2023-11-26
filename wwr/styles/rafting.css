@@ -134,33 +134,39 @@ ul {
 }
 .history-sub {
   display: flex;
-  flex-direction: column 5;
 }
 .history-sub img {
   height: 200px;
   width: auto;
-  orphans: 2;
 }
 .adventure-awaits h2 {
   text-align: center;
 }
-.adventure-awaits-sub {
+.adventure-awaits-sub,
+figure {
+  justify-content: center;
+  justify-content: space-around;
+}
+
+figure {
   display: flex;
   justify-content: center;
   justify-content: space-around;
 }
 .adventure-awaits-sub img {
-  display: flex;
   justify-content: space-around;
   height: 100px;
   align-content: center;
 }
 
-footer,
-p,
-img {
+footer {
   display: flex;
   text-align: center;
   justify-content: center;
   justify-content: space-evenly;
+}
+
+footer,
+img {
+  align-items: center;
 }
