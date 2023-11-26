@@ -133,8 +133,8 @@ ul {
   text-align: center;
 }
 .history-sub {
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  display: flex;
+  flex-direction: column 5;
 }
 .history-sub img {
   height: 200px;
@@ -145,4 +145,16 @@ ul {
   text-align: center;
 }
 .adventure-awaits-sub {
+  display: grid;
+}
+.adventure-awaits-sub img {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-content: center;
+}
+
+footer {
+  display: inline-flex;
+  text-align: center;
 }
