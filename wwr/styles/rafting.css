@@ -38,7 +38,8 @@ h1 {
 header {
   padding: 20px;
   background-color: var(--accent1-color);
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px 1fr;
 }
 header nav {
   flex: 1;
@@ -126,4 +127,17 @@ ul {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.history h2 {
+  text-align: center;
+}
+.history-sub {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+.history-sub img {
+  height: 200px;
+  width: auto;
+  orphans: 2;
 }
