@@ -35,6 +35,9 @@ h1 {
   text-shadow: 0 2px 4px #000000;
 }
 
+h2 {
+  font-size: 3em;
+}
 header {
   padding: 20px;
   background-color: var(--accent1-color);
@@ -169,4 +172,71 @@ footer {
 footer,
 img {
   align-items: center;
+}
+section {
+  padding: 40px;
+}
+
+.employees {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+.employee img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.align-center {
+  text-align: center;
+}
+
+.company-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 3em;
+  border-radius: 6px;
+  background: hsla(200, 49%, 62%, 0.5);
+}
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5em;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 300px;
+}
+.contact-form button {
+  display: block;
+  margin: 0 auto;
+  color: var(--accent2-color);
+  background-color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em;
+  font-size: 1.5em;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 1em;
 }
