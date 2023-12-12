@@ -59,26 +59,33 @@ p {
 }
 
 nav {
-  background-color: var(--nav-background-color);
   font-size: 1.2rem;
   display: flex;
+  background: hsla(0, 100%, 100%, 0.7);
+  backdrop-filter: blur(2px);
+  padding: 1em;
+  border-radius: 5px;
 }
 
 nav a {
   display: block;
-  color: var(--nav-link-color);
+  margin: 0 auto;
+  color: var(--accent2-color);
+  transition: background-color 0.3s ease;
+  background-color: var(--primary-color);
+  padding: 1em;
+  font-size: 1.5em;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 1em;
+  cursor: pointer;
+  color: white;
   text-decoration: none;
-  padding: 1rem;
-}
-
-nav a:link,
-nav a:visited {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
 }
 
 nav a:hover {
   text-decoration: underline;
+  background-color: var(--secondary-color);
 }
 
 ul {
