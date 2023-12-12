@@ -145,17 +145,15 @@ ul {
 .adventure-awaits h2 {
   text-align: center;
 }
-.adventure-awaits-sub,
-figure {
+.adventure-awaits-sub {
+  display: flex;
+  justify-content: center;
+}
+.adventure-awaits-sub figure {
   justify-content: center;
   justify-content: space-around;
 }
 
-figure {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-}
 .adventure-awaits-sub img {
   justify-content: space-around;
   height: 100px;
