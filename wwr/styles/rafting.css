@@ -240,3 +240,70 @@ section {
   border-radius: 4px;
   margin-top: 1em;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.sidebar {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.content {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.feature1home img {
+  width: 700px;
+  justify-content: center;
+}
+.feature2home img {
+  width: 700px;
+  justify-content: center;
+}
+.feature3home img {
+  width: 700px;
+  justify-content: center;
+}
+
+.events {
+  list-style: none;
+  padding: 0;
+}
+
+.events li {
+  margin-bottom: 10px;
+}
+
+.register-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: var(--primary-color);
+}
+
+.feature1trip img {
+  width: 700px;
+  justify-content: center;
+}
+.feature2trip img {
+  width: 700px;
+  justify-content: center;
+}
+.feature3trip img {
+  width: 700px;
+  justify-content: center;
+}
