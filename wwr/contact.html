@@ -76,25 +76,40 @@
       <section>
         <h2 class="align-center">Let's Get In Touch</h2>
         <form class="contact-form">
-          <label>Name <input name="name" type="text" /></label>
-          <label>Email <input name="email" type="email" /></label>
+          <label>Name <input id="name" name="name" type="text" /></label>
+          <label>Email <input id="email" name="email" type="email" /></label>
           <label>Request Type:</label>
           <label>
-            <input name="purpose" value="general" type="radio" /> General
-            Inquiry
+            <input id="general" name="purpose" value="general" type="radio" />
+            General Inquiry
           </label>
           <label>
-            <input name="purpose" value="reservation" type="radio" />
+            <input
+              id="reservation"
+              name="purpose"
+              value="reservation"
+              type="radio"
+            />
             Reservation Question
           </label>
           <label>
-            <input name="purpose" value="suggestion" type="radio" /> Website
-            Suggestion
+            <input
+              id="suggestion"
+              name="purpose"
+              value="suggestion"
+              type="radio"
+            />
+            Website Suggestion
           </label>
           <label>Message:<textarea name="message"></textarea></label>
           <label>
-            <input name="news-letter" value="general" type="checkbox" /> Please
-            Subscribe Me To The Monthly News Letter
+            <input
+              id="news-letter"
+              name="news-letter"
+              value="general"
+              type="checkbox"
+            />
+            Please Subscribe Me To The Monthly News Letter
           </label>
           <button type="submit">Get In Touch</button>
         </form>
