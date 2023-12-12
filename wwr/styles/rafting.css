@@ -229,6 +229,7 @@ section {
   display: block;
   margin: 0 auto;
   color: var(--accent2-color);
+  transition: background-color 0.3s ease;
   background-color: var(--primary-color);
   font-weight: bold;
   text-transform: uppercase;
@@ -237,8 +238,13 @@ section {
   border: 0;
   border-radius: 4px;
   margin-top: 1em;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
-
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+}
 .grid-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
